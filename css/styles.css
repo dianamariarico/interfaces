@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: blue;
+    display: flex; /* Agregado para usar flexbox */
+    min-height: 100vh; /* Agregado para ocupar toda la altura de la ventana */
+
+
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 200px; /* Ajusta según el tamaño de tu logo */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color:aliceblue;
+    width: 100%; 
+        
+    
+    text-align: center; /* Para centrar contenido en línea */
+    /* o */
+
+    
+   
+    
+    
+}
+
+.central-image {
+    width: 80%; /* O ajusta según el tamaño deseado */
+    margin-top: 60px; /* Espacio entre la imagen y la descripción */
+}
+
+.blue-text {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.links-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color:white;
+    text-align: right;
+
+}
+
+.link {
+    text-decoration: none;
+    color: hwb(240 0% 0%);
+    font-size: 20px;
+    display: block;
+    margin-left: 20px; /* Ajusta según tu preferencia */
+    text-align: left;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.yellow-button {
+    padding: 10px 20px;
+    background-color: #FFD700; /* Amarillo oscuro */
+    color: rgb(0, 4, 255); /* Amarillo oscuro */
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    ;
+    
+    
+}
+
+.menu-btn {
+  
+    position: absolute;
+    background-color: #FFD700;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 20px;
+right: 1; /* Alinea el menú a la derecha */
+
+}
+
+
+#menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(196, 207, 218);
+    color: blue;
+    padding: 15px;
+    text-align: center;
+    
+    width: 200px;
+    height: 100%;
+    box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+    
+}
+#content {
+    margin-right: 180px;
+    padding: 20px;
+}
+
+#menu ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-bottom: 10px; /* Ajusta el espacio entre las opciones de menú */
+}
+
+
+#menu a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+}
+
+.contenido iframe {
+    width: 100%; /* Ajusta el ancho del iframe al 100% del contenedor */
+    height: 400px; /* Ajusta la altura del iframe según tus necesidades */
+    
+
+}
+.contenido {
+    margin-bottom: 40px; /* Puedes ajustar el valor según la cantidad de espacio que desees */
+}
+
+/* Ajusta la posición del enlace de descarga */
+#pdfLink {
+    display: block;
+    margin-top: 20px; /* Puedes ajustar el valor según la cantidad de espacio que desees */
+    text-align:left;
+}
+
+
+
+
+
+#menu .link {
+    text-decoration: none;
+    color: blue;
+    padding: 10px 15px;
+    border: 2px solid yellow; /* Borde para resaltar el enlace */
+    border-radius: 5px;
+    display: inline-block; /* Asegura que el enlace sea un bloque con los estilos aplicados */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+
+
+/* Estilo para los enlaces al pasar el mouse */
+#menu .link:hover {
+    color: #007bff;
+    background-color: yellow;
+    border-color: #007bff; /* Cambia el color del borde al pasar el mouse */
+}
+
+/* Estilo para los enlaces activos (opcional) */
+
+
+#menu .link.active {
+    font-weight: bold;
+    color: yellow;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Estilo para la lista */
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    max-width: 600px; /* Limita el ancho de la lista */
+    margin: 0 auto; /* Centra la lista horizontalmente */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilo para los enlaces */
+a {
+    
+    color: #007bff; /* Color del texto del enlace */
+    font-size: 18px; /* Tamaño de la fuente */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Efecto hover para los enlaces */
+a:hover {
+    color: #0056b3; /* Color del enlace al pasar el ratón */
+}
+
+/* Opcional: estilo para cuando el enlace está activo */
+a:active {
+    color: #004085; /* Color del enlace cuando se hace clic */
+}

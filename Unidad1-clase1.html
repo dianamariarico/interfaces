@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de una buena experiencia de usuario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imagenes/logo_itm.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo_itm.png" alt="ITM" class="logo">
+        <!-- Botón para desplegar el menú -->
+    <button class="menu-btn" onclick="Inicio()">Volver al  inicio</button>
+    
+    
+    <script src="js/script.js"></script>
+    </header>
+    <main class="content">
+    
+    <div id="contenido1" class="contenido">
+        
+    <iframe id="video1" src="https://www.youtube.com/embed/rKQ1qdD1hrE?si=v7bRa3U6yW54uJNp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+    </div>
+
+    <div id="contenido2" class="contenido" style="display:none;">
+        <iframe id="video2" src="https://www.youtube.com/embed/iBBvrJbtrHI?si=q1QiN78lyl-fDn0P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+   
+    <h2>Documentación</h2>
+    <ul>
+        <li><a id="AspectosBasicos" href="https://www.coursera.org/learn/aspectos-basicos-del-diseno-de-la-experiencia-del-usuario-ux/lecture/OeyQC/aspectos-basicos-del-diseno-de-la-experiencia-del-usuario" target="_blank" download>fundamentos de diseño de la experiencia de usuario</a></li>
+        <li><a id="Ciclodevida" href="https://asana.com/es/resources/product-development-process" target="_blank" download>Ciclo de vida de un producto</a></li>
+        <li><a id="Experiencia" href="https://www.coursera.org/learn/aspectos-basicos-del-diseno-de-la-experiencia-del-usuario-ux/lecture/NAe5U/disenar-para-una-buena-experiencia-del-usuario" target="_blank" download>Una buena experiencia de usuario</a></li>
+       </ul>    
+   
+   
+    <div id="menu">
+        <h2>Fundamentos de experiencia de usuario</h2>
+        <ul>
+            <li><a href="#" class="link" onclick="cambiarContenido(1); return false;">Fundamentos básicos</a></li>
+            <li><a href="#" class="link" onclick="cambiarContenido(2); return false;">Trabajos en experiencia de usuario</a></li>
+            
+            
+        </ul>
+    </div>
+    
+</main>
+    <script src="js/script.js"></script>
+</body>
+</html>
